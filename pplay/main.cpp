@@ -101,7 +101,7 @@ Main::Main(const c2d::Vector2f &size) : C2DRenderer(size) {
     // main menu
     std::vector<MenuItem> items;
     items.emplace_back("Home", "home.png", MenuItem::Position::Top);
-    items.emplace_back("Network", "network.png", MenuItem::Position::Top);
+    //items.emplace_back("Network", "network.png", MenuItem::Position::Top);
     items.emplace_back("Options", "options.png", MenuItem::Position::Top);
     items.emplace_back("Exit", "exit.png", MenuItem::Position::Bottom);
     menu_main = new MenuMain(this, {-250 * scaling, 0, 250 * scaling, getSize().y}, items);
@@ -298,7 +298,7 @@ c2d::Io *Main::getIo() {
 
 int main() {
 
-    Vector2f size = {1280, 720};
+    Vector2f size = {1920, 1080};
 
 #ifdef __SWITCH__
 #ifndef __NET_DEBUG__
