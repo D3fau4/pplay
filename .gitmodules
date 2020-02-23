@@ -4,3 +4,6 @@
 [submodule "pscrap"]
 	path = pscrap
 	url = https://github.com/Cpasjuste/pscrap.git
+[submodule "libcross2d"]
+	path = libcross2d
+	url = https://github.com/D3fau4/libcross2d.git
